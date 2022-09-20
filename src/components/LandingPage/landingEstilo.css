@@ -1,0 +1,43 @@
+.landingContainer {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0,6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: center;
+    z-index: -1;
+}
+
+
+    .landingContainer > p {
+        box-sizing: content-box;
+        color: rgb(255, 255, 255);
+        border-color: 3px black;
+        font-size: 100px;
+        position: absolute;
+        height: 100%;
+        background-color: transparent;
+        top: 30%;
+        }
+
+    .BOTON {
+        color:rgb(255, 251, 251);
+        border-color: rgb(172, 14, 14);
+        background-color: rgb(145, 5, 5);;
+        font-size: 32px;
+        height: 10%;
+        box-sizing: content-box;
+        position: absolute;
+          top: 48%;
+          border-bottom: 1
+          
+    }

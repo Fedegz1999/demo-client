@@ -1,0 +1,71 @@
+
+.Background{
+    margin-top:0%;
+    background-size:cover;
+    background-image:url('../media/countrydetails.jpg');
+    min-height: 100vh;
+    display:flex;
+    justify-content: space-around;
+}
+.Cardback{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: transparent;
+    flex-direction: column;
+    max-height: fit-content;
+}
+
+
+    .Name{
+        color:black;
+        font-family: 'Antonio', sans-serif;
+        font-size: 40px;      
+    }
+
+    .ID{
+        color:black;
+    }
+
+    .Capital{
+        color:black;
+    }
+
+    .Continent{
+        color:black;
+    }
+
+    .Subregion{
+        color:black;
+    }
+
+    .Area{
+        color:black;
+    }
+
+    .Population{
+        color: black;
+    }
+
+    
+    .Title{
+        font-family: 'Antonio', sans-serif;
+        color: black;
+    }
+
+    .activities2{
+        justify-content: space-around;
+        border-radius: 25px;
+        width: max-content;
+        height: max-content;
+        border: 3px solid black;
+        backdrop-filter: blur(30px);
+        color: rgb(15, 15, 15);
+        display:flex;
+        flex-direction: column;
+        margin-top: 5px;
+        padding: 4px;
+    }
+
+    hr {border: 0; height: 0; border-top: 4px double black; text-align:center;}
+hr:after {position: relative; top: -22px; content:"\25cf\25cf\25cf"; font-size: 34px;line-height: 34px; color: black;}
